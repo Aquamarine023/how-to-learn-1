@@ -10,7 +10,7 @@
 }
 
 /*
-Ниже приведены стили для отображения границ элементов блока красным цветом внутри блока header
+ниже приведены стили для отображения границ элементов блока красным цветом внутри блока header
 
 .header {
   border: 1px solid green;
@@ -90,8 +90,7 @@
 }
 
 /*
-Ниже приведены стили для отображения границ элементов блока красным цветом внутри блока description
-*/
+ниже приведены стили для отображения границ элементов блока красным цветом внутри блока description
 
 .description {
   border: 1px solid green;
@@ -101,16 +100,16 @@
   border: 1px solid red;
 }
 
+*/
+
 .description {
-  position: relative;
   display: flex;
   justify-content: center;
 }
 
 .two-columns {
   width: 80%;
-  position: absolute;
-  top: 100px;
+  padding: 100px 0;
   display: flex;
   justify-content: space-between;
 }
