@@ -18,6 +18,7 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  background-color: blue;
   height: 568px;
   width: 568px;
 }
