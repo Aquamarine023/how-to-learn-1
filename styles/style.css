@@ -1,15 +1,3 @@
-/*
-Здесь приведены стили для отображения границ элементов блока внутри блока header
-
-.header {
-  border: 1px solid green;
-}
-
-.header__title, .header__subtitle, .header__link, .header__main-illustration, .header__square-pic {
-  border: 1px solid red;
-}
-*/
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -20,6 +8,18 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+/*
+Ниже приведены стили для отображения границ элементов блока внутри блока header
+
+.header {
+  border: 1px solid green;
+}
+
+.header__title, .header__subtitle, .header__link, .header__main-illustration, .header__square-pic {
+  border: 1px solid red;
+}
+*/
 
 .header {
   height: 100vh;
