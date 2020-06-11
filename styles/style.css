@@ -10,7 +10,7 @@
 }
 
 /*
-ниже приведены стили для отображения границ элементов блока красным цветом внутри блока header
+ниже приведены стили для отображения границ элементов блока цветом внутри блока header
 
 .header {
   border: 1px solid green;
@@ -90,7 +90,7 @@
 }
 
 /*
-ниже приведены стили для отображения границ элементов блока красным цветом внутри блока description
+ниже приведены стили для отображения границ элементов блока цветом внутри блока description
 
 .description {
   border: 1px solid green;
@@ -105,11 +105,12 @@
 .description {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
   width: 80%;
-  padding: 100px 0;
+
   display: flex;
   justify-content: space-between;
 }
@@ -149,6 +150,90 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+}
+
+/*
+ниже приведены стили для отображения границ элементов блока цветом внутри блока digits
+
+
+.digits {
+  border: 1px solid green;
+}
+
+.section-title, .section-subtitle, .table, .table__cell, .table__heading, .table__text, .table__cite {
+  border: 1px solid red;
+}
+*/
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+
+.section-title {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__cell_indend_l {
+  padding-top: 80px;
+}
+
+.table__cell_indend_m {
+  padding-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  margin: 0;
+  padding: 20px 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__cite {
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-style: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
