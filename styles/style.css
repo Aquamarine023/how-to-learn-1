@@ -261,7 +261,6 @@
 
 /*
 ниже приведены стили для отображения границ элементов блока цветом внутри блока feynman
-*/
 
 .feynman {
   border: 1px solid green;
@@ -270,6 +269,8 @@
 .feynman__title, .feynman__subtitle, .feynman__link {
   border: 1px solid red;
 }
+
+*/
 
 .feynman {
   height: 100vh;
@@ -282,7 +283,7 @@
   background-size: 867px 637px;
 }
 
-.feynman-headers {
+.feynman__headers {
   display: flex;
   flex-direction: column;
   align-items: center;
