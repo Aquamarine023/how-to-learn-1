@@ -29,6 +29,7 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
+  align-items: center;
   position: relative;
   background-color: #f2f2f2;
 }
@@ -44,9 +45,7 @@
   margin: 0;
   padding: 0;
   width: 730px;
-  align-self: center;
-  position: absolute;
-  left: 64px;
+  margin-left: 64px;
   z-index: 2;
   color: #000000;
   line-height: 96px;
