@@ -13,11 +13,11 @@
 ниже приведены стили для отображения границ элементов блока цветом внутри блока header
 
 .header {
-  border: 1px solid green;
+  outline: 1px solid green;
 }
 
 .header__title, .header__subtitle, .header__link, .header__main-illustration, .header__square-pic {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 */
 
@@ -94,11 +94,11 @@
 ниже приведены стили для отображения границ элементов блока цветом внутри блока description
 
 .description {
-  border: 1px solid green;
+  outline: 1px solid green;
 }
 
 .two-columns, .two-columns__brief, .two-columns__main-text, .two-columns__paragraph, .two-columns__span-accent {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 */
@@ -135,15 +135,15 @@
 }
 
 .two-columns__paragraph {
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.two-columns__paragraph_central {
-  margin: 30px 0;
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -159,11 +159,11 @@
 
 
 .digits {
-  border: 1px solid green;
+  outline: 1px solid green;
 }
 
 .section-title, .section-subtitle, .table, .table__cell, .table__heading, .table__text, .table__cite {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 */
 
@@ -250,28 +250,26 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  font-style: normal;
+}
+
+.table__text:last-child {
+  margin-bottom: 0;
 }
 
 .table__text_theme_dark {
   color: white;
 }
 
-.table__cite {
-  margin: 0;
-  padding: 0;
-  display: block;
-  font-style: normal;
-}
-
 /*
 ниже приведены стили для отображения границ элементов блока цветом внутри блока feynman
 
 .feynman {
-  border: 1px solid green;
+  outline: 1px solid green;
 }
 
 .feynman__title, .feynman__subtitle, .feynman__link {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 */
@@ -287,9 +285,6 @@
   background-position: bottom 0 left 0;
   background-size: 867px 637px;
   background-color: #f2f2f2;
-}
-
-.feynman__headers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -299,7 +294,7 @@
   width: 648px;
   margin: 0;
   padding: 0;
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -341,6 +336,8 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: 877px 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -350,11 +347,11 @@
 ниже приведены стили для отображения границ элементов блока цветом внутри блока feynman
 
 .footer {
-  border: 1px solid green;
+  outline: 1px solid green;
 }
 
 .footer__columns, .footer__column, .logo_place_footer, .footer__author, .footer__column-heading, .footer__column-links, .footer__social-icon {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 */
@@ -362,6 +359,7 @@
 /* стили блока footer */
 .footer {
   min-height: 350px;
+  box-sizing: border-box;
   padding: 60px 0 40px 0;
   display: flex;
   justify-content: center;
@@ -399,6 +397,8 @@
   display: flex;
   flex-direction: column;
   margin: 20px 0 16px 0;
+  list-style: none;
+  padding: 0;
 }
 
 .footer__column-link {
