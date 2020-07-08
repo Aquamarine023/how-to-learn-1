@@ -21,8 +21,8 @@
 * CSS 
 
 #### Брифы проектной работы спринта №1 и спринта №2:
-* [Бриф №1](https://drive.google.com/file/d/1MVQEdu_WO0-7kq4744u1FAOQgbXyNDcG/view?usp=sharing) (Flexbox-вёрстка, позиционирование, продвинутая семантика HTML и CSS)
-* [Бриф №2](https://drive.google.com/file/d/1L2bPH90ytovXdCCHCjMDXTp6iuPrTq3X/view?usp=sharing) (анимации и трансформации, Nested БЭМ, iframe)
+* [Бриф №1](https://drive.google.com/file/d/1MVQEdu_WO0-7kq4744u1FAOQgbXyNDcG/view?usp=sharing) (Flexbox, Positioning Elements, advanced HTML and CSS) 
+* [Бриф №2](https://drive.google.com/file/d/1L2bPH90ytovXdCCHCjMDXTp6iuPrTq3X/view?usp=sharing) (Animation and Transform using CSS, Nested БЭМ, iframe) 
 
 #### Чеклисты проектной работы спринта №1 и спринта №2:
 * [Чеклист №1](https://code.s3.yandex.net/web-developer/checklists/new-program/checklist-1/index.html) 
