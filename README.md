@@ -1,6 +1,6 @@
-# Проктная работа "How to learn"
+# Проктная работа: "How to learn"
 
-## Типовой однастраничный сайт созданный в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/)
+## Типовой однастраничный сайт. Создан в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на курсе ["Веб-разработчик"](https://praktikum.yandex.ru/web/)
 
 *Read this in other languages:* [EN](https://github.com/MelnikovAleksei/how-to-learn/blob/master/README.EN.md) 
 
