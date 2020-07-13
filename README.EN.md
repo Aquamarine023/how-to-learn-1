@@ -1,4 +1,4 @@
-# Project work "How to learn"
+# Project work: "How to learn"
 
 ## A typical one-page site created as part of a study at [Yandex.Praktikum](https://praktikum.yandex.com/) on a web development course ["Web Developer"](https://practicum.yandex.com/web/). 
 
