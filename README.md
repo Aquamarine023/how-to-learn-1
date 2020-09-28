@@ -13,7 +13,7 @@
 * Анимация и трансформация элементов страницы посредством CSS 
 * Секция *video* с встроенными в страницу видео из Youtube
 
-## Технологии в проектной работе: 
+## Технологии: 
 
 * Flexbox 
 * Positioning Elements 
@@ -22,6 +22,12 @@
 * BEM Methodology 
 * File Structure and File Paths (Nested BEM) 
 * Git 
+
+## Инструкция по установке: 
+
+```
+git clone https://github.com/MelnikovAleksei/how-to-learn.git
+```
 
 ## Будущая доработка проекта будет включать в себя: 
 
